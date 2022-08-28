@@ -8,6 +8,8 @@ use sqlx::{
 };
 use uuid::Uuid;
 
+pub mod model;
+
 #[derive(Debug, thiserror::Error)]
 #[allow(clippy::module_name_repetitions)]
 pub enum DataError {
