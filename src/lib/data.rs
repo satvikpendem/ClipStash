@@ -9,6 +9,7 @@ use sqlx::{
 use uuid::Uuid;
 
 pub mod model;
+pub mod query;
 
 #[derive(Debug, thiserror::Error)]
 #[allow(clippy::module_name_repetitions)]
