@@ -1,7 +1,5 @@
 pub mod lib {
-    pub mod data {
-        pub mod model;
-    }
+    pub mod data;
     pub mod domain {
         pub mod clip;
         pub mod time;
