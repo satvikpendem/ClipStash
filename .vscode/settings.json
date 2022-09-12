@@ -1,5 +1,14 @@
 {
     "rust-analyzer.server.extraEnv": {
         "DATABASE_URL": "sqlite:data.db"
-    }
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 100,
+            "driver": "SQLite",
+            "name": "clipstash",
+            "database": "${workspaceFolder:clipstash}/data.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }
