@@ -8,7 +8,10 @@ pub mod lib {
     pub mod web;
 }
 
-pub use lib::domain::{
-    clip::{field::shortcode::ShortCode, ClipError},
-    time::Time,
+pub use lib::{
+    data::DataError,
+    domain::{
+        clip::{field::shortcode::ShortCode, ClipError},
+        time::Time,
+    },
 };
